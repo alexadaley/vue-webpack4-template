@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h3>Hello {{ name }} from my Vue.js page, built with Webpack 4!</h3>
+    <h3>Hello {{ name }} ...for those moments in life when you dont have a handbook.</h3>
   </div>
 </template>
 
