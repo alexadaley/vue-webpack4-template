@@ -21,9 +21,9 @@
         <b-input
           id="input-password"
           v-model="form.password"
-          placeholder="Your password"
           type="password"
           required
+          placeholder="Your password"
         />
       </b-form-group>
       <b-button
@@ -35,33 +35,35 @@
     </b-form>
   </div>
 </template>
+
 <script>
+
 export default {
   data: function () {
     return {
       form: {
         email: '',
         password: ''
-      }
+      },
+      users: []
     }
   },
   methods: {
     onSubmit () {
-      let myjson = [{ // should be retrieved from the session storage which is intialized with the JSON.parse og myjson
-        email: '',
-        password: '',
-        name: ''
-      },
-      {
-        email: '',
-        password: '',
-        name: ''
-      }
-      ]
-      let email = this.form.email
-      let password = this.form.password
-      sessionStorage.user = JSON.stringify(myjson.find(function (user) { return ((user.email === email) && (user.password === password)) }))
-      this.$router.push('/')
+      fetch('https://api.myjson.com/bins/z0wum')
+        .then(response => response.json())
+        .then(json => {
+          this.users = json.users
+        })
+        .then(() => {
+          let email = this.form.email
+          let password = this.form.password
+          sessionStorage.user = JSON.stringify(this.users.find(function (user) {
+            return ((user.email === email) && (user.password === password))
+          }))
+          console.log(sessionStorage.user)
+          this.$router.push('/')
+        })
     }
   }
 }

@@ -55,7 +55,6 @@
                     <h4> Login </h4>
                   </b-link>
                 </b-navbar-nav>
-
               </b-collapse>
             </b-navbar>
           </div>
