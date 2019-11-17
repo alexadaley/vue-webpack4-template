@@ -1,7 +1,8 @@
 <template>
   <div>
-  <h1 class="text-center">
-    Find Out Whats New In The World</h1>
+    <h1 class="text-center">
+      Find Out Whats New In The World
+    </h1>
     <b-card-group>
       <b-card
         class="text-center"

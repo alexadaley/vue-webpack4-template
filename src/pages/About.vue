@@ -1,28 +1,60 @@
 <template>
   <div>
     <h1 class="text-center">
-    A LITTLE BIT ABOUT ME - LEX</h1>
-    <div class="mt-4">
+      A LITTLE BIT ABOUT ME - LEX
+    </h1>
+    <b-card-group deck>
       <b-card
+        class="text-center"
         img-src="static/img/USA.jpg"
         img-alt="Card image"
-        img-left
-        class="mb-3"
+        img-bottom
       >
         <b-card-text>
-          I lived in Omaha, Nebraska until I was about six years old, then I moved to Dublin, Ireland for a few years. This opportunity changed my life and made my world so much bigger, it is probably a lot of the reason that I ended up in Paris. After Dublin I moved back to Omaha for a year or so and then to Ohio until I was eighteen. 
+          <h3> OMAHA </h3>
+          I was born in Omaha, Nebraska
         </b-card-text>
       </b-card>
 
       <b-card
-        img-src="static/img/PARIS.jpg"
+        class="text-center"
+        img-src="static/img/IRELAND.jpg"
         img-alt="Card image"
-        img-right
+        img-bottom
       >
         <b-card-text>
-          I moved to the beautiful city when I was eighteen for university and have grown up a lot since then. During that time, I have traveled, worked bars, worked for prestigious organizations, made tons of mistakes, and had a lot of fun doing it. I am currently in my final year of university and attempting to figure out what in the world I am going to do.
+          <h3> DUBLIN </h3>
+          Spent a few years in Dublin, Ireland.
         </b-card-text>
       </b-card>
-    </div>
+    </b-card-group>
+
+    <b-card-group deck>
+      <b-card
+        class="text-center"
+        img-src="static/img/OHIO.jpg"
+        img-alt="Card image"
+        img-top
+      >
+        <b-card-text>
+          <h3> OHIO </h3>
+          Spent most of my years growing up in Dayton.
+        </b-card-text>
+      </b-card>
+
+      <b-card
+        class="text-center"
+        img-src="static/img/PARIS.jpg"
+        img-alt="Card image"
+        img-top
+      >
+        <b-card-text>
+          <h3> PARIS </h3>
+          Moved to France for university and am finishing up my last year.
+        </b-card-text>
+      </b-card>
+    </b-card-group>
+
+    </b-card-group>
   </div>
 </template>

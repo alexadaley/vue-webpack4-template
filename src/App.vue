@@ -22,13 +22,13 @@
                     to="/"
                     router-tag="b-nav-item"
                   >
-                   <h4> Home </h4>
+                    <h4> Home </h4>
                   </b-link>
                   <b-link
-                    to="/about"
+                    to="/whats"
                     router-tag="b-nav-item"
                   >
-                    <h4> AboutMe </h4>
+                    <h4> WhatsNew </h4>
                   </b-link>
                   <b-link
                     to="/stories"
@@ -37,10 +37,10 @@
                     <h4> Travel </h4>
                   </b-link>
                   <b-link
-                    to="/whats"
+                    to="/about"
                     router-tag="b-nav-item"
                   >
-                    <h4> WhatsNew </h4>
+                    <h4> AboutMe </h4>
                   </b-link>
                   <b-link
                     to="/Contact"
@@ -54,8 +54,8 @@
                   >
                     <h4> Login </h4>
                   </b-link>
-                
                 </b-navbar-nav>
+
               </b-collapse>
             </b-navbar>
           </div>
