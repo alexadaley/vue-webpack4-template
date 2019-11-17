@@ -1,10 +1,12 @@
 <template>
   <div>
+  <h1 class="text-center">
+    Find Out Whats New In The World</h1>
     <b-card-group>
       <b-card
         class="text-center"
         title="THINGS TO DO "
-        img-src="static/img/things to do.jpg"
+        img-src="static/img/reading.jpg"
         img-alt="Image"
         img-bottom
       >

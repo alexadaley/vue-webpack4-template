@@ -1,7 +1,38 @@
 <template>
-  <div class="full-width center-content">
-    <img src="static/img/logo.png">
-    <p> Welcome to Lex's Blog...for those moments in life when you dont have a handbook.</p>
+  <div class="container-fluid">
+    <div>
+  <b-card
+    overlay
+    img-src="static/img/pink.jpg"
+    img-alt="Card Image"
+    text-variant="white"
+    title="Image Overlay"
+    sub-title="Subtitle"
+  >
+    <b-card-text>
+      Some quick example text to build on the card and make up the bulk of the card's content.
+    </b-card-text>
+  </b-card>
+</div>
+
+    <div>
+      <b-card
+        bg-variant="dark"
+        text-variant="white"
+        title="Card Title"
+      >
+        <b-card-text>
+          With supporting text below as a natural lead-in to additional content.
+        </b-card-text>
+        <b-button
+          href="#"
+          variant="primary"
+        >
+          Go somewhere
+        </b-button>
+      </b-card>
+    </div>
+
     <ul>
       <li
         v-if="user"
@@ -34,3 +65,6 @@ export default {
   }
 }
 </script>
+
+
+

@@ -4,7 +4,7 @@
     <section class="mb-4">
       <!--Section heading-->
       <h2 class="h1-responsive font-weight-bold text-center my-4">
-        Contact Me
+        CONTACT ME
       </h2>
       <!--Section description-->
       <p class="text-center w-responsive mx-auto mb-5">
