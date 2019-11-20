@@ -59,18 +59,16 @@
         </b-card>
       </b-card-group>
     </div>
-<div>
-    <h4>Thank you for visiting-- <span v-if="user">{{ user.name }}</span> </h4>
-    <b-list-group>
-  <b-list-group-item>Your Information</b-list-group-item>
-  <b-list-group-item><span v-if="user">{{ user.name }}</span></b-list-group-item>
-  <b-list-group-item><span v-if="user">{{ user.email }}</span></b-list-group-item>
-  <b-list-group-item><span v-if="user">{{ user.password }}</span></b-list-group-item>
-</b-list-group>
+    <div>
+      <h4>Thank you for visiting-- <span v-if="user">{{ user.name }}</span> </h4>
+      <b-list-group>
+        <b-list-group-item>Your Information</b-list-group-item>
+        <b-list-group-item><span v-if="user">{{ user.name }}</span></b-list-group-item>
+        <b-list-group-item><span v-if="user">{{ user.email }}</span></b-list-group-item>
+        <b-list-group-item><span v-if="user">{{ user.password }}</span></b-list-group-item>
+      </b-list-group>
+    </div>
   </div>
-    
-  </div>
-
 </template>
 <script>
 export default {

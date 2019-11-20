@@ -54,7 +54,5 @@
         </b-card-text>
       </b-card>
     </b-card-group>
-
-    </b-card-group>
   </div>
 </template>
