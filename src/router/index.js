@@ -7,6 +7,7 @@ import Contact from 'pages/Contact'
 import Login from 'pages/Login'
 import Stories from 'pages/Stories'
 import Whats from 'pages/Whats'
+import Signin from 'pages/Signin'
 
 Vue.use(Router)
 
@@ -34,6 +35,10 @@ const routes = [
   {
     path: '/login',
     component: Login
+  },
+  {
+    path: '/Signin',
+    component: Signin
   }
 ]
 

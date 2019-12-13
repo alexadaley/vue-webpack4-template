@@ -54,6 +54,12 @@
                   >
                     <h4> Login </h4>
                   </b-link>
+                  <b-link
+                    to="/signin"
+                    router-tag="b-nav-item"
+                  >
+                    <h4> Signin </h4>
+                  </b-link>
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
