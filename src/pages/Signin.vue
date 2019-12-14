@@ -1,6 +1,6 @@
 <template>
   <div class="full-width center-content">
-  <h1> Sign Up for Lex's Blog here... </h1>
+    <h1> Sign Up for Lex's Blog here... </h1>
     <b-form @submit="onSubmit">
       <b-form-group
         id="input-group-email"
@@ -69,5 +69,3 @@ export default {
   }
 }
 </script>
-
-
